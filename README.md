@@ -1,2 +1,4 @@
 # KHI_W_Portfolio
-Landing page for my portolio. Will have about me, works, and more all done with css. 
+As a potential employee,  I've deployed  a landing page  with my work samples in order for viewing by potential employers and collaborators
+
+
