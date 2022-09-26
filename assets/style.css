@@ -6,3 +6,75 @@
 --isabelline: #F5EDEBff;
 }
 
+header {
+ display: flex; 
+ background: var(--isabelline);
+ width: 100%;
+ height: 80px;
+ align-items:center;  
+ justify-content: space-between;
+}
+
+
+h1 {
+    /* background-color: var(--tart-orange); */
+    width: 30%
+
+    
+}
+
+
+
+nav {
+    background-color: aqua;
+    width: 70%;
+}
+
+
+ul {
+    background-color: yellow;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+li {
+background: brown; 
+}
+
+main {
+    background-color: cornflowerblue;
+    width 100%;
+   
+
+}
+
+.TheCoop {
+    background-color: rgb(131, 224, 9);
+    display: flex;
+    
+}
+.Chicken {
+    background-color: chocolate;
+}
+
+.Nest{
+    background-color: darkkhaki;
+    display: flex;
+    width: 100%;
+    height: 80px
+   
+}
+
+
+
+aside {
+    text-align: center;
+}
+
+article {
+    background-color: darkgreen;
+}
+
