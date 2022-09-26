@@ -5,76 +5,102 @@
 --blue-violet: #783AF5ff;
 --isabelline: #F5EDEBff;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
-header {
- display: flex; 
- background: var(--isabelline);
- width: 100%;
- height: 80px;
- align-items:center;  
- justify-content: space-between;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    background: var(--isabelline);
+   
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo h1  {
+    font-size: 3rem;
+    margin: 0;
+
 }
 
 
-h1 {
-    /* background-color: var(--tart-orange); */
-    width: 30%
 
-    
+.navbar {
+    background-color: var(--tart-orange);
+    color: #fff;
+    height: 80px;
 }
 
 
 
-nav {
-    background-color: aqua;
-    width: 70%;
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-
-ul {
-    background-color: yellow;
+.navbar a:hover {
+    color: var(--vivid-sky-blue);
+}
+.navbar .container {
     display: flex;
-    list-style-type: none;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
     height: 100%;
 }
 
-li {
-background: brown; 
-}
-
-main {
-    background-color: cornflowerblue;
-    width 100%;
-   
-
-}
-
-.TheCoop {
-    background-color: rgb(131, 224, 9);
+.navbar ul {
     display: flex;
-    
-}
-.Chicken {
-    background-color: chocolate;
 }
 
-.Nest{
-    background-color: darkkhaki;
-    display: flex;
-    width: 100%;
-    height: 80px
-   
+.navbar ul li {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
+ul {
+   list-style-type: none; 
 
+}
 
-aside {
+.hero {
+   background-image: url("HERO-PLACEHOLDER");
+   background-position: center;
+   background-size: cover;
+   background-repeat: none;
+   position:relative
+   height: 50%;
+
+}
+
+.hero-content {
+ text-align: center;
+ position: absolute;
+ top: 50%;
+left: 50% ;
+}
+
+.hero-content button {
+    border:none;
+    display:inline-block;
+    padding:10px 25px;
+    color: white;
+    background-color: var(--tart-orange);
     text-align: center;
+    cursor: pointer;
 }
 
-article {
-    background-color: darkgreen;
-}
+
+
 
