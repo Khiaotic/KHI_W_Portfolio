@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:'Poppins', sans-serif;
 }
 
 body {
@@ -52,6 +53,7 @@ img {
 
 .navbar a:hover {
     color: var(--vivid-sky-blue);
+    
 }
 .navbar .container {
     display: flex;
@@ -72,6 +74,13 @@ img {
 ul {
    list-style-type: none; 
 
+}
+
+
+
+/* <!--hero START--!> */
+section {
+    padding: 25px 0;
 }
 
 .hero {
@@ -101,6 +110,138 @@ left: 50% ;
     cursor: pointer;
 }
 
+.hero-content button:hover{
+    transform: scale(1.2) translateY(10px);
+    transition: .3s;
+}
 
 
+
+
+/*Portfolio Section*/
+.heading {
+    display: flex;
+    text-align: left;
+    color: black;
+    
+
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    padding: 25px;
+
+}
+.box-img {
+   width: 300px;
+   height: 300px;
+
+}
+
+/* .box h2 {
+    font-size: large;
+} */
+
+
+
+
+
+
+/*About Section*/
+
+.about {
+   display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 1.5rem;
+    align-items: center; 
+    background-color: var(--vivid-sky-blue);
+    
+    
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about-text span {
+    color: white;
+    font-weight: 600;
+}
+.button {
+    max-width: 25%;
+    border:none;
+    display:inline-block;
+    padding:10px 25px;
+    color: white;
+    background-color: var(--tart-orange);
+    text-align: center;
+    cursor: pointer;
+     /* border: radius 20px; */
+}
+
+.button:hover {
+    transform: scale(1.2) translateY(10px);
+    transition: .3s;
+}
+
+.about-img img{
+    max-width:100%;
+    height: auto;
+    width: 420pxx;
+}
+
+
+
+/*CONTACT INFORMATION */
+.contact-main {
+    background-color: var(--maize-crayola);
+}
+
+.contact-text {
+display: flex;
+justify-content: space-around;
+}
+.contact-main button {
+    max-width: 25%;
+    border:none;
+    display:inline-block;
+    padding:10px 25px;
+    color: white;
+    background-color: var(--tart-orange);
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+
+/* MEDIA QUERUES */
+
+@media (max-width: 768px) {
+.navbar {
+    display: block;
+    padding: 15px 40px;
+    text-align: center;
+      
+}
+
+.portfolio-container {
+display: block;
+text-align: center;
+}
+}
 
