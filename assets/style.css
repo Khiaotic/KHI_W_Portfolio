@@ -231,17 +231,24 @@ justify-content: space-around;
 
 /* MEDIA QUERUES */
 
+
 @media (max-width: 768px) {
 .navbar {
     display: block;
-    padding: 15px 40px;
+    padding: 10px 20px;
     text-align: center;
       
 }
 
 .portfolio-container {
-display: block;
+display: block;git
 text-align: center;
+}
+
+
+.navlinks {
+    display: block;
+    flex-wrap: wrap;
 }
 }
 
