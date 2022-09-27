@@ -1,6 +1,7 @@
 # KHI_W_Portfolio
 As a potential employee,  I've deployed  a landing page  with my work samples in order for viewing by potential employers and collaborators
 
+Application: https://khiaotic.github.io/KHI_W_Portfolio/
 
 User Story
 AS AN employer
@@ -23,3 +24,5 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+![Screenshot 2022-09-26 234743](https://user-images.githubusercontent.com/112679225/192427413-971bda76-d041-49db-b433-2ab340b8140a.jpg)
