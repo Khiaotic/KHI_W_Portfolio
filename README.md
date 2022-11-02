@@ -3,6 +3,8 @@ As a potential employee,  I've deployed  a landing page  with my work samples in
 
 Application: https://khiaotic.github.io/KHI_W_Portfolio/
 
+## updated screenshot
+![Screenshot 2022-11-01 212625](https://user-images.githubusercontent.com/112679225/199373102-136bb22a-a9cc-44fa-ae0c-25f9e35a0cca.jpg)
 
 
 ![Screenshot 2022-09-26 234743](https://user-images.githubusercontent.com/112679225/192427413-971bda76-d041-49db-b433-2ab340b8140a.jpg)
